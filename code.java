@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class hashmap_table {
 
 	public static void main(String[] args) {
+		System.out.println("KISHORE");
 		int arr[] = new int[10];
 		Scanner input = new Scanner(System.in);
 		int number;
@@ -37,7 +38,8 @@ public class hashmap_table {
 		int temp1 = number1%10;
 		int flag = 0;
 		for(int i = temp1;i<arr.length;i++) {
-			if(number1==arr[i]) {
+			if(number1==arr[i])
+			{
 				System.out.println("Your number : "+arr[i]+" index : "+i);
 				flag = 1;
 				break;
